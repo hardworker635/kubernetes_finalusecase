@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: hello-world-app
-        image: DevEnvironmentACR.azurecr.io/hello-world-app:$(Build.BuildId)
+        image: devenvironmenthelloworldapp.azurecr.io/hello-world-app:$(Build.BuildId)
         ports:
         - containerPort: 80
 
