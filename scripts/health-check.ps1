@@ -30,7 +30,7 @@ function Check-Pods {
         $fields = $_ -split '\s+'
         [PSCustomObject]@{
             PodName = $fields[1]
-            Status  = $fields[2]
+            Status  = $fields[3]
         }
     }
 
